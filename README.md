@@ -23,7 +23,7 @@ Further predictor data (land use, land cover, etc.) was provided by the Magistra
 **Spatial_model.R:** Model fitting, predictions and validation (random and spatial cross-validation) of spatial habitat suitability model  
 **Temporal_data_prep.R:** Data preparation of temporal (time-lagged) predictors, aggregation of daily mosquito counts, correlation matrix  
 **Temporal_model.R:** Temporal model fitting (three different sets of predictors were tested), predictions and random cross-validation  
-**Visualization_classification.r:** Risk-classification, bivariate mapping, time-series  
+**Visualization_classification.r:** Risk-classification of spatial and temporal predictions, bivariate mapping, time-series  
 **Workflow.png:** Flow chart to describe the individual steps of the spatio-temporal analysis
 
 ## Abstract 
