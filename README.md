@@ -19,7 +19,8 @@ Further predictor data (land use, land cover, etc.) was provided by the Magistra
 **Aedes_albopictus_presence_Graz.gif:** Visualized time series of the predicted spatio-temporal presence in Graz, Austria  
 **MosAl_explo_prepro.ipynb:** Data preparation and exploration of Mosquito Alert data (presences and sampling effort)  
 **Spatial_Data_Prep.R:** Preparation of spatial predictor data  
-**Spatial_sampling.R** Sampling of pseudo-absences (two approaches) and eda  
+**Spatial_sampling.R:** Sampling of pseudo-absences (two approaches) and eda  
+**Spatial_model.R:** Model fitting, predictions and validation (random and spatial cross-validation) of spatial habitat suitability model
 **Workflow.png:** Flow chart to describe the individual steps of the spatio-temporal analysis
 
 ## Abstract 
