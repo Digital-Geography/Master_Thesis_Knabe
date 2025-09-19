@@ -4,10 +4,12 @@ This repository was used to predict the spatial habitat suitability and the dail
 The temporal and spatial analysis was preformed by two individual models. 
 
 ## File descriptions
+MosAl_explo_prepro.ipynb: Data preparation and exploration of Mosquito Alert data (presences and sampling effort)
+Workflow.png: Flow chart to describe the individual steps of the spatio-temporal analysis
 
 
 
 Mosquito Alert observation and sampling effort data is accessible from: https://labs.mosquitoalert.com/metadata_public_portal/README.html
-Master_MosAl.ipynb: Data preparation and exploration of Mosquito Alert data (presences and sampling effort)
+
 
 To provide an overview of the associated research, the abstract of the thesis is provided:
