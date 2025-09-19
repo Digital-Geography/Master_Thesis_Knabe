@@ -3,7 +3,7 @@
 This repository was used to predict the spatial habitat suitability and the daily activity of the Asian tiger mosquito in Graz, Austria using citizen science data from Mosquito Alert and can be adapted for similar use cases in other study areas. 
 Spatial habitat suitability was predicted using a binomial generalized additive model (GAM) based on presence/pseudo-absence data while daily mosquito counts were predicted using a negative binomial generalized additive mixed model (GAMM). To predict spatial habitat suitability two approaches were tested, to account for biased observation data due to heterogeneous sampling effort:  
 
-**(1)** Probability-proportional-to-size (PPS) sampling of pseudo-absences  
+**(1)** Probability-proportional-to-size (PPS) sampling of pseudo-absences based on sampling effort  
 **(2)** Employ numerical sampling effort as predictor during model fitting (zeroed out during prediction)  
 
 Predicted daily mosquito counts were spatially distributed using the predicted habitat suitability scores to visualize the presence of *Aedes albopictus* in space and time.  
@@ -16,13 +16,14 @@ Daily weather data is accessible from: https://data.hub.geosphere.at/dataset/kli
 Further predictor data (land use, land cover, etc.) was provided by the Magistrat Graz, Stadtvermessungsamt and is not publicly available. 
 
 ## File descriptions
-**Aedes_albopictus_presence_Graz.gif:** Visualized time series of the predicted spatio-temporal presence in Graz, Austria  
+**Time_series_Aedes_albopictus_presence.gif:** Visualized time series of the predicted spatio-temporal presence in Graz, Austria  
 **MosAl_explo_prepro.ipynb:** Data preparation and exploration of Mosquito Alert data (presences and sampling effort)  
 **Spatial_Data_Prep.R:** Preparation of spatial predictor data  
 **Spatial_sampling.R:** Sampling of pseudo-absences (two approaches) and eda  
 **Spatial_model.R:** Model fitting, predictions and validation (random and spatial cross-validation) of spatial habitat suitability model
 **Temporal_data_prep.R:** Data preparation of temporal (time-lagged) predictors, aggregation of daily mosquito counts, correlation matrix  
 **Temporal_model.R:** Temporal model fitting (three different sets of predictors were tested), predictions and random cross-validation 
+**Visualization_classification.r:** Risk-classification, bivariate mapping, time-series
 **Workflow.png:** Flow chart to describe the individual steps of the spatio-temporal analysis
 
 ## Abstract 
