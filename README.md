@@ -4,8 +4,9 @@ This repository was used to predict the spatial habitat suitability and the dail
 The temporal and spatial analysis was preformed by two individual models. 
 
 ## File descriptions
-MosAl_explo_prepro.ipynb: Data preparation and exploration of Mosquito Alert data (presences and sampling effort)
-Workflow.png: Flow chart to describe the individual steps of the spatio-temporal analysis
+**Aedes_albopictus_presence_Graz.gif:** Visualized time series of the predicted spatio-temporal presence in Graz, Austria  
+**MosAl_explo_prepro.ipynb:** Data preparation and exploration of Mosquito Alert data (presences and sampling effort)  
+**Workflow.png:** Flow chart to describe the individual steps of the spatio-temporal analysis
 
 
 
